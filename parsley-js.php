@@ -9,7 +9,6 @@ function parsley( $required, $type = 'text', $minlength = 0, $maxlength = 0 ) {
 	//required or not
 	if ( $required == 'true' ) {
 		$return = $return . 'data-parsley-required="true"'; // required and validate
-		//$return=$return.'data-parsley-required';	// required and validate
 	} else {
 		$return = $return . 'data-parsley-required="false"'; // not required but validate
 	}
@@ -23,9 +22,9 @@ function parsley( $required, $type = 'text', $minlength = 0, $maxlength = 0 ) {
 	} elseif ( $type == 'integer' ) {
 		$return = $return . ' data-parsley-type="integer"';
 	} elseif ( $type == 'digits' ) {
-			$return = $return . ' data-parsley-type="digits"';
-		}
-		// minlength maxlength
+		$return = $return . ' data-parsley-type="digits"';
+	}
+	// minlength maxlength
 	if ( $minlength != 0 && $maxlength == 0 && $type != 'check' ) {
 		// only minlength
 		$return = $return . ' data-parsley-minlength="' . $minlength . '"';
