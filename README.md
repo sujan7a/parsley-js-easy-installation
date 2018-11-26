@@ -23,3 +23,6 @@ data-parsley-required="true" data-parsley-type="digits" data-parsley-length="[5,
 parsley('true','check',5,10) <br>
 it will return this  <br>
 data-parsley-required="true" data-parsley-check="[5, 10]" <br>
+<br>
+You people are more smart than me, add your suggestion on it.<br>
+Thanks<br>
