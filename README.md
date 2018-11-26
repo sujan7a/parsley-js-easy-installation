@@ -1,4 +1,4 @@
-# Parsley js easy installation
+# Parsley Js easy installation
 Add parsley js easily on your html form with request argument
 
 Argument list <br>
