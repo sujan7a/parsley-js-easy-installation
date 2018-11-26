@@ -24,5 +24,5 @@ parsley('true','check',5,10) <br>
 it will return this  <br>
 data-parsley-required="true" data-parsley-check="[5, 10]" <br>
 <br>
-You people are more smart than me, add your suggestion on it.<br>
+You people are more smarter than me, add your suggestion on it.<br>
 Thanks<br>
